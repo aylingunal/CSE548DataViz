@@ -2,9 +2,14 @@
 
 <!doctype html>
 <html>
-  <head>
-    <title> U.S. Migration and Policy in a Global Context (1995–2022) </title>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <script src="https://cdn.jsdelivr.net/npm/vega@{vega_version}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@{vegalite_version}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@{vegaembed_version}"></script>
   </head>
+
   <body>
     
     <p>In the final years of the twentieth century, the world’s political landscape was in flux. 
@@ -13,6 +18,16 @@
         But as the years went  on, events both grand and local would reshape the flows of migration in ways few could have anticipated. 
         Throughout this article, we will trace global movements, tie them together with the catalytic events of the past three decades, and understand how public sentiment in the USA has changed over time.
     </p>
+
+    image should be here...
+    <div id="timeline_viz"></div>
+
+    <script type="text/javascript">
+      var spec = "timeline.json";
+      vegaEmbed('#timeline_viz', spec).then(function(result) {
+      }).catch(console.error);
+    </script>
+
 
     <h1> Tracing Global Movements</h1>
     <p>
