@@ -95,7 +95,7 @@
         })
         .then(spec => {
           // Render the visualization
-          vegaEmbed('#timeline_viz', spec)
+          vegaEmbed('#us_admissions', spec)
             .then(result => {
               console.log('Visualization rendered successfully.');
             })
@@ -118,6 +118,60 @@
         This coupled with policies like DACA temporarily shielded certain groups but also sparked new debates on belonging, rights and the legality around who should be allowed to reside in the country. 
         
        </p>
+
+
+       <div id="flow_in"></div>
+       <script type="text/javascript">
+         // Fetch the spec from the 'timeline.json' file
+         fetch('flow_in.json')  // Make sure the file is in the same directory or provide the correct URL path
+           .then(response => {
+             // Check if the fetch was successful
+             if (!response.ok) {
+               throw new Error('Network response was not ok ' + response.statusText);
+             }
+             return response.json();  // Parse the JSON response
+           })
+           .then(spec => {
+             // Render the visualization
+             vegaEmbed('#flow_in', spec)
+               .then(result => {
+                 console.log('Visualization rendered successfully.');
+               })
+               .catch(error => {
+                 console.error('Error rendering the visualization:', error);
+               });
+           })
+           .catch(error => {
+             console.error('Error fetching the spec:', error);
+           });
+       </script>
+
+      <div id="flow_out"></div>
+      <script type="text/javascript">
+        // Fetch the spec from the 'timeline.json' file
+        fetch('flow_out.json')  // Make sure the file is in the same directory or provide the correct URL path
+          .then(response => {
+            // Check if the fetch was successful
+            if (!response.ok) {
+              throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();  // Parse the JSON response
+          })
+          .then(spec => {
+            // Render the visualization
+            vegaEmbed('#flow_out', spec)
+              .then(result => {
+                console.log('Visualization rendered successfully.');
+              })
+              .catch(error => {
+                console.error('Error rendering the visualization:', error);
+              });
+          })
+          .catch(error => {
+            console.error('Error fetching the spec:', error);
+          });
+      </script>
+
 
         <h1>The American Mosaic: Local Sentiment and the Future</h1>
     
