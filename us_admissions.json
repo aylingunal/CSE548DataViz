@@ -1,0 +1,356 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300
+    }
+  },
+  "data": {
+    "name": "data-73f0b3e262fcfebe8388a97e51757169"
+  },
+  "datasets": {
+    "data-73f0b3e262fcfebe8388a97e51757169": [
+      {
+        "Annual Ceiling": 231700,
+        "Number of Admitted Refugees": 207116,
+        "Year": "1980-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 217000,
+        "Number of Admitted Refugees": 159252,
+        "Year": "1981-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 140000,
+        "Number of Admitted Refugees": 98096,
+        "Year": "1982-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 90000,
+        "Number of Admitted Refugees": 61218,
+        "Year": "1983-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 72000,
+        "Number of Admitted Refugees": 70393,
+        "Year": "1984-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 67704,
+        "Year": "1985-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 67000,
+        "Number of Admitted Refugees": 62146,
+        "Year": "1986-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 64528,
+        "Year": "1987-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 87500,
+        "Number of Admitted Refugees": 76483,
+        "Year": "1988-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 116500,
+        "Number of Admitted Refugees": 107070,
+        "Year": "1989-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 125000,
+        "Number of Admitted Refugees": 122066,
+        "Year": "1990-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 131000,
+        "Number of Admitted Refugees": 113389,
+        "Year": "1991-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 131000,
+        "Number of Admitted Refugees": 132531,
+        "Year": "1992-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 142000,
+        "Number of Admitted Refugees": 119448,
+        "Year": "1993-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 121000,
+        "Number of Admitted Refugees": 112981,
+        "Year": "1994-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 112000,
+        "Number of Admitted Refugees": 99974,
+        "Year": "1995-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 90000,
+        "Number of Admitted Refugees": 76403,
+        "Year": "1996-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 78000,
+        "Number of Admitted Refugees": 70488,
+        "Year": "1997-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 83000,
+        "Number of Admitted Refugees": 77080,
+        "Year": "1998-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 91000,
+        "Number of Admitted Refugees": 85525,
+        "Year": "1999-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 90000,
+        "Number of Admitted Refugees": 73147,
+        "Year": "2000-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 80000,
+        "Number of Admitted Refugees": 69886,
+        "Year": "2001-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 27131,
+        "Year": "2002-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 28403,
+        "Year": "2003-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 52873,
+        "Year": "2004-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 53813,
+        "Year": "2005-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 41223,
+        "Year": "2006-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 48282,
+        "Year": "2007-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 80000,
+        "Number of Admitted Refugees": 60191,
+        "Year": "2008-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 80000,
+        "Number of Admitted Refugees": 74654,
+        "Year": "2009-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 80000,
+        "Number of Admitted Refugees": 73311,
+        "Year": "2010-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 80000,
+        "Number of Admitted Refugees": 56424,
+        "Year": "2011-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 76000,
+        "Number of Admitted Refugees": 58238,
+        "Year": "2012-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 69926,
+        "Year": "2013-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 69987,
+        "Year": "2014-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 70000,
+        "Number of Admitted Refugees": 69933,
+        "Year": "2015-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 85000,
+        "Number of Admitted Refugees": 84994,
+        "Year": "2016-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 50000,
+        "Number of Admitted Refugees": 53716,
+        "Year": "2017-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 45000,
+        "Number of Admitted Refugees": 22655,
+        "Year": "2018-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 30000,
+        "Number of Admitted Refugees": 30000,
+        "Year": "2019-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 18000,
+        "Number of Admitted Refugees": 11814,
+        "Year": "2020-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 62500,
+        "Number of Admitted Refugees": 11411,
+        "Year": "2021-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 125000,
+        "Number of Admitted Refugees": 25465,
+        "Year": "2022-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 125000,
+        "Number of Admitted Refugees": 60014,
+        "Year": "2023-01-01T00:00:00"
+      },
+      {
+        "Annual Ceiling": 125000,
+        "Number of Admitted Refugees": 100034,
+        "Year": "2024-01-01T00:00:00"
+      }
+    ]
+  },
+  "params": [
+    {
+      "name": "param_1",
+      "select": {
+        "encodings": [
+          "x"
+        ],
+        "type": "interval"
+      },
+      "views": [
+        "view_1"
+      ]
+    }
+  ],
+  "vconcat": [
+    {
+      "height": 300,
+      "layer": [
+        {
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "param_1",
+                "value": 1
+              },
+              "value": 0.2
+            },
+            "x": {
+              "field": "Year",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "Number of Admitted Refugees",
+              "title": "Number of Refugees",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "orange",
+            "point": {
+              "color": "orange"
+            },
+            "type": "line"
+          },
+          "name": "view_1",
+          "title": "US Admissions vs Annual Ceiling"
+        },
+        {
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "param_1",
+                "value": 1
+              },
+              "value": 0.2
+            },
+            "x": {
+              "field": "Year",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "Annual Ceiling",
+              "title": "Annual Ceiling",
+              "type": "quantitative"
+            }
+          },
+          "mark": {
+            "color": "blue",
+            "point": {
+              "color": "blue"
+            },
+            "type": "line"
+          },
+          "title": "US Admissions vs Annual Ceiling"
+        }
+      ],
+      "width": 600
+    },
+    {
+      "encoding": {
+        "text": {
+          "field": "text",
+          "type": "nominal"
+        }
+      },
+      "height": 50,
+      "mark": {
+        "align": "left",
+        "dx": -150,
+        "fontSize": 20,
+        "type": "text"
+      },
+      "transform": [
+        {
+          "filter": {
+            "param": "param_1"
+          }
+        },
+        {
+          "aggregate": [
+            {
+              "as": "total",
+              "field": "Number of Admitted Refugees",
+              "op": "sum"
+            }
+          ]
+        },
+        {
+          "as": "text",
+          "calculate": "('Total Admissions: ' + datum.total)"
+        }
+      ],
+      "width": 600
+    }
+  ]
+}
