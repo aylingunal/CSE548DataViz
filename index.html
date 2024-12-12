@@ -50,8 +50,8 @@
 
         #timeline_viz,
         #us_admissions,
-        #full_flow_in,
-        #flow_out {
+        #inflow_viz,
+        #outflow_viz {
             width: 80%;       
             max-width: 1000px;   
             left: 7%;
@@ -207,9 +207,9 @@
 
        <h3>Fig. 3: A chloropleth describing the flow inwards to countries over the years.</h3>
 
-       <div id="full_flow_in"></div>
+       <div id="inflow_vis"></div>
        <script type="text/javascript">
-         fetch('full_flow_in.json')  
+         fetch('inflow_vis.json')  
            .then(response => {
              if (!response.ok) {
                throw new Error('Network response was not ok ' + response.statusText);
@@ -217,7 +217,7 @@
              return response.json(); 
            })
            .then(spec => {
-             vegaEmbed('#full_flow_in', spec)
+             vegaEmbed('#inflow_vis', spec)
                .then(result => {
                  console.log('Visualization rendered successfully.');
                })
@@ -233,9 +233,9 @@
 
     <h3>Fig. 4: A chloropleth describing the flow outwards to countries over the years.</h3>
 
-      <div id="flow_out"></div>
+      <div id="outflow_vis"></div>
       <script type="text/javascript">
-        fetch('flow_out.json') 
+        fetch('outflow_vis.json') 
           .then(response => {
             if (!response.ok) {
               throw new Error('Network response was not ok ' + response.statusText);
@@ -243,7 +243,7 @@
             return response.json();  
           })
           .then(spec => {
-            vegaEmbed('#flow_out', spec)
+            vegaEmbed('#outflow_vis', spec)
               .then(result => {
                 console.log('Visualization rendered successfully.');
               })
