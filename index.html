@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.24.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.10.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.23.0"></script>
-  
+
 
 
     <!-- External CSS for a minimalist design -->
@@ -29,12 +29,12 @@
             justify-content: center;
             align-items: center;
         }
-  
+
         h1 {
             font-size: 2.5rem;
             font-weight: 700;
             margin: 0 auto 20px auto;
-            max-width: 800px; 
+            max-width: 800px;
             color: #222;
             text-align: center;
         }
@@ -52,10 +52,10 @@
         #us_admissions,
         #inflow_viz,
         #outflow_viz {
-            width: 80%;       
-            max-width: 1000px;   
+            width: 80%;
+            max-width: 1000px;
             left: 7%;
-            margin: 40px auto;    
+            margin: 40px auto;
             border: 1px solid #ddd;
             border-radius: 8px;
             background-color: #fff;
@@ -68,7 +68,7 @@
             font-size: 2rem;
             font-weight: 700;
             margin: 0 auto 20px auto;
-            max-width: 800px; 
+            max-width: 800px;
             color: #222;
             text-align: center;
         }
@@ -77,7 +77,7 @@
           font-size: 1.2rem;
             font-weight: 700;
             margin: 0 auto 20px auto;
-            max-width: 800px; 
+            max-width: 800px;
             color: #222;
             text-align: center;
         }
@@ -104,11 +104,11 @@
   <body>
 
     <h1>U.S. Politics and Migration</h1>
-    
-    <p>Towards the end of the 20th century, the world’s political landscape was messy. 
-        The Cold War had recently ended, there was more globalization, and economic growth in many Western nations attracted migrants from other countries. 
-        The United States in particular became a focal point for global migration. 
-        But as the years have passed, both global and regional events have reshaped the flows of migration in unexpected ways. 
+
+    <p>Towards the end of the 20th century, the world’s political landscape was messy.
+        The Cold War had recently ended, there was more globalization, and economic growth in many Western nations attracted migrants from other countries.
+        The United States in particular became a focal point for global migration.
+        But as the years have passed, both global and regional events have reshaped the flows of migration in unexpected ways.
         In this article, we trace global movements and align them with major global events from the past few decades.
     </p>
 
@@ -117,12 +117,12 @@
 
     <div id="timeline_viz"></div>
     <script type="text/javascript">
-      fetch('timeline.json') 
+      fetch('timeline.json')
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
           }
-          return response.json(); 
+          return response.json();
         })
         .then(spec => {
           vegaEmbed('#timeline_viz', spec)
@@ -141,16 +141,16 @@
     <h2> Tracing Global Movements</h2>
     <p>
 
-        By 1995, migration was no longer a niche phenomenon. 
-        Conflicts in the Balkans after the collapse of the USSR coupled with the allure of prosperity in the West catalyzed global movement. 
-        Some countries became common sources of migrants, others destinations––and both statuses could change over time. The U.S., being a global superpower, was a popular final destination. 
+        By 1995, migration was no longer a niche phenomenon.
+        Conflicts in the Balkans after the collapse of the USSR coupled with the allure of prosperity in the West catalyzed global movement.
+        Some countries became common sources of migrants, others destinations––and both statuses could change over time. The U.S., being a global superpower, was a popular final destination.
     </p>
 
     <p>
-        However, global stability is never guaranteed. 
-        Disruptions in one area can trigger population shifts that can be felt even thousands of miles away. 
+        However, global stability is never guaranteed.
+        Disruptions in one area can trigger population shifts that can be felt even thousands of miles away.
         This is even more apparent when considering immigration into the U.S, which has only two neighboring countries and is separated from most of the world by the Atlantic.
-        During the late 20th century, the United States maintained an open stance toward immigration, welcoming individuals from around the globe. 
+        During the late 20th century, the United States maintained an open stance toward immigration, welcoming individuals from around the globe.
         Changes in U.S. immigration policy––whether more open or restrictive––can cause ripples across global migration patterns.
     </p>
 
@@ -158,9 +158,9 @@
     <p>
 
         The September 11 attacks caused heightened border security and distrust across countries.
-        The conversation around immigration changed, frequently focused around the security and safety of the American people. 
-        As wars raged on in Iraq and Afghanistan, global displacement increased while at the same time U.S entry policies tightened. 
-        The 2008 financial crisis further complicated matters. 
+        The conversation around immigration changed, frequently focused around the security and safety of the American people.
+        As wars raged on in Iraq and Afghanistan, global displacement increased while at the same time U.S entry policies tightened.
+        The 2008 financial crisis further complicated matters.
         With American unemployment spiking, public sentiment toward newcomers wavered between humanitarianism and economic fears.
 
         During all of this, however, the U.S. maintained an established immigration system that relied on revising annual refugee admissions,
@@ -173,12 +173,12 @@
 
     <div id="us_admissions"></div>
     <script type="text/javascript">
-      fetch('us_admissions.json') 
+      fetch('us_admissions.json')
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
           }
-          return response.json(); 
+          return response.json();
         })
         .then(spec => {
           vegaEmbed('#us_admissions', spec)
@@ -197,24 +197,24 @@
        <h2>Changing Composition of Migrants</h2>
 
        <p>
-        Over time, U.S. immigrant demographics also shifted. 
-        In the earlier portion of our study period, a significant number of migrants came from Eastern Europe and Latin America. 
-        By the 2010s, conflicts in the Middle East due to the Arab Spring significantly affected migrant demographics. 
-        Additionally, some climate induced instability in Central America and collapses within South America––most notably the Venezuelan and the Argentinian economic collapses––displaced millions with some eventually seeking refuge in the USA. 
-        This coupled with policies like DACA temporarily protected certain groups but also sparked new debates on the rights and the legality around who should be allowed to reside in the country. 
-        
+        Over time, U.S. immigrant demographics also shifted.
+        In the earlier portion of our study period, a significant number of migrants came from Eastern Europe and Latin America.
+        By the 2010s, conflicts in the Middle East due to the Arab Spring significantly affected migrant demographics.
+        Additionally, some climate induced instability in Central America and collapses within South America––most notably the Venezuelan and the Argentinian economic collapses––displaced millions with some eventually seeking refuge in the USA.
+        This coupled with policies like DACA temporarily protected certain groups but also sparked new debates on the rights and the legality around who should be allowed to reside in the country.
+
        </p>
 
-       <h3>Fig. 3: A chloropleth describing the flow inwards to countries over the years. (Data is processed correctly, minor bug with Altair.)</h3>
+       <h3>Fig. 3: A chloropleth describing the flow inwards to countries over the years.</h3>
 
        <div id="inflow_vis"></div>
        <script type="text/javascript">
-         fetch('inflow_vis.json')  
+         fetch('inflow_vis.json')
            .then(response => {
              if (!response.ok) {
                throw new Error('Network response was not ok ' + response.statusText);
              }
-             return response.json(); 
+             return response.json();
            })
            .then(spec => {
              vegaEmbed('#inflow_vis', spec)
@@ -235,12 +235,12 @@
 
       <div id="outflow_vis"></div>
       <script type="text/javascript">
-        fetch('outflow_vis.json') 
+        fetch('outflow_vis.json')
           .then(response => {
             if (!response.ok) {
               throw new Error('Network response was not ok ' + response.statusText);
             }
-            return response.json();  
+            return response.json();
           })
           .then(spec => {
             vegaEmbed('#outflow_vis', spec)
@@ -261,14 +261,14 @@
 
     <p>
         From the late 1990s to the shocks of terrorism, financial crises, and pandemics, the global migration from 1995 to 2022, particularly with the US as a destination, is defined by fluctuation.
-        Policies responded to global emergencies with varying degrees of humanitarian efforts or severity. 
+        Policies responded to global emergencies with varying degrees of humanitarian efforts or severity.
         Understanding these historical flows and their relationship to government policies offers a blueprint for establishing more informed and humane approaches in the future.
     </p>
 
     <h1>References</h1>
     <p>
       OECD 2024, International Migration Database, https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_MIG%40DF_MIG&df[ag]=OECD.ELS.IMD&dq=..A.B12%2BB11._T...&pd=%2C&to[TIME_PERIOD]=false&vw=tb.", accessed on December 1, 2024.
-      
+
 
     </p>
 
